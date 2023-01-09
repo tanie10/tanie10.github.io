@@ -32,13 +32,15 @@ h2{
 }
 .home-header {
     background: #fff url(../images/home/home1.png) no-repeat;
-    padding:  20px;
+    padding:  80px;
     background-attachment: fixed;
     background-size: cover;
     color: #009191;
 }
 nav.header-navigation {
-    margin-top: 50px;
+    margin-top: 20px;
+    padding: 15px;
+    margin: 10px;
 }
 nav.header-navigation a {
     font-size: 14px;
@@ -60,9 +62,9 @@ nav.header-navigation a {
 
 /* Add your About Styles here*/
 section.about-section {
-    background: url(https://images.pexels.com/photos/90764/man-studio-portrait-light-90764.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background: url(../images/home/home2.jpg);
     background-repeat: no-repeat;
-    padding: 40px;
+    padding: 10px;
     background-size: cover;
     text-align: right;
     color:#fff;
@@ -76,6 +78,11 @@ section.about-section {
 .about-me p {
     margin-bottom: 15px;
 }
+.intro-myself{
+    display: flex; 
+    justify-content: space-between;
+    align-items: left;
+}
 
 
 /* Add your Skills Styles here*/
@@ -87,7 +94,7 @@ section#skills .col {
 
 }
 section#skills {
-    background: url(https://images.pexels.com/photos/1556704/pexels-photo-1556704.jpeg?cs=srgb&dl=pexels-daniel-reche-1556704.jpg&fm=jpg&_gl=1*dsq32z*_ga*MTkxNzIzMDk2LjE2NjY1MjYyNzY.*_ga_8JE65Q40S6*MTY2NzUwNTk0Ni40LjEuMTY2NzUwODI4NC4wLjAuMA..);
+    background: url(../images/home/home3.jpg);
     color: #fff;
     background-size: cover;
     background-attachment: fixed;
@@ -104,7 +111,7 @@ section.quote {
 
 /* Contact Styles */
 section#contact {
-    background: url('../images/contact.jpg') no-repeat;
+    background: url('../images/home/home4.jpg') no-repeat;
     background-size: cover;
     background-attachment: fixed;
     display:block;
@@ -274,4 +281,11 @@ span.copyright {
     text-align: center;
     white-space: nowrap;
     -webkit-overflow-scrolling: touch;
+  }
+  .container-marketing{
+    background-image: url('../images/about/about1.jpg');
+    padding: 20px;
+  }
+  .caurosel-slide{
+    margin-bottom: none;
   }
