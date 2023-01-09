@@ -31,7 +31,7 @@ h2{
     padding: 40px
 }
 .home-header {
-    background: #fff url(../images/girl.jpg) no-repeat;
+    background: #fff url(../images/home/home1.png) no-repeat;
     padding:  20px;
     background-attachment: fixed;
     background-size: cover;
