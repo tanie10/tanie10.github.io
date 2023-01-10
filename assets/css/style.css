@@ -1,5 +1,7 @@
 /* This style is for paragraph */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -28,14 +30,14 @@ h2{
 }
 .container {
     margin: 0 auto;
-    padding: 40px
+    padding: 10px
 }
 .home-header {
     background: #fff url(../images/home/home1.png) no-repeat;
-    padding:  80px;
+    padding:  20px;
     background-attachment: fixed;
     background-size: cover;
-    color: #009191;
+    padding-bottom: 275px;
 }
 nav.header-navigation {
     margin-top: 20px;
@@ -53,11 +55,21 @@ nav.header-navigation a {
 /* Add your Banner here */
 
 .banner {
-    text-align: left;
+    text-align: center;
     margin-bottom: 95px;
     margin-top: 20px;
     padding:40px;
+    font-size: 50px;
+    color:#ffffff;
+    font-family:  'Sofia Sans Extra Condensed', sans-serif;
+    letter-spacing: none;
+}
+.banner p{
     font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    word-spacing: 3px;
+    text-align: center;
+    padding-inline: 100px;
 }
 
 /* Add your About Styles here*/
@@ -66,25 +78,37 @@ section.about-section {
     background-repeat: no-repeat;
     padding: 10px;
     background-size: cover;
-    text-align: right;
     color:#fff;
     
 }
-.about-me {
-    width: 50%;
-    text-align: left;
-    display: inline-block;
-    margin-left: 500px;
+#my-about{
+    padding-left: 35px;
+    margin-top: 35px;
 }
-.about-me p {
-    margin-bottom: 15px;
-}
-.intro-myself{
-    display: flex; 
-    justify-content: space-between;
+.about-myself{
+    display: flex;
     align-items: left;
 }
-
+.about-myself p{
+    text-align: justify;
+}
+.about-myself iframe{
+    margin-right: 20px;
+    width: 300px; 
+    height: 250px;
+    padding-inline: 30px;
+    border: none;
+    padding: 30px; 
+}
+#par-intro{
+    display: grid;
+    text-align: justify;
+    padding-inline: 40px;
+    padding-top: 45px;
+}
+#iframeabout{
+    display: grid;
+}
 
 /* Add your Skills Styles here*/
 section#skills .col {
@@ -99,12 +123,13 @@ section#skills {
     color: #fff;
     background-size: cover;
     background-attachment: fixed;
+    padding: 40px;
 
 }
 section.quote {
     padding: 90px 50px;
     text-align: center;
-    background: #002e3f;
+    background: #04151b;
     color: #fff;
 
 }
