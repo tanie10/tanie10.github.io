@@ -68,6 +68,7 @@ section.about-section {
     background-size: cover;
     text-align: right;
     color:#fff;
+    
 }
 .about-me {
     width: 50%;
@@ -174,12 +175,12 @@ footer, a {
 }
 footer {
     background: #1a1a1a;
-    padding: 25px;
+    padding: 20px;
 }
 section.footer-1 .col {
     vertical-align: top;
     color: #fff;
-    font-size: 17px;
+    font-size: 15px;
     display: inline-block;
     width: 400px;
 }
@@ -341,4 +342,11 @@ span.copyright {
     text-align: center;
     white-space: nowrap;
     -webkit-overflow-scrolling: touch;
+  }
+  .col-d-flex{
+    font-size: 40px;
+    text-align: center;
+  }
+  .container-marketing{
+    background: url('../images/skills/skills4.jpg') no-repeat;
   }
