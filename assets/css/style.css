@@ -94,8 +94,6 @@ section.about-section {
 }
 .about-myself iframe{
     margin-right: 20px;
-    width: 300px; 
-    height: 250px;
     padding-inline: 30px;
     border: none;
     padding: 30px; 
@@ -124,69 +122,92 @@ section#skills {
     background-size: cover;
     background-attachment: fixed;
     padding: 40px;
-
+    font-family: 'Lato', sans-serif;
 }
+#bacskills{
+    background: rgba(46, 43, 43, 0.719);
+    padding: 20px;
+}
+
+/*Quote Secction*/
+
 section.quote {
     padding: 90px 50px;
     text-align: center;
     background: #04151b;
     color: #fff;
+    font-size: 30px;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 5px;
 
 }
 
 
 /* Contact Styles */
 section#contact {
-    background: url('../images/home/home4.jpg') no-repeat;
+    background: url(../images/home/home4.jpg) no-repeat;
     background-size: cover;
     background-attachment: fixed;
     display:block;
+    font-family:'Lato', sans-serif;
 }
 .form-container {
     text-align: right;
-    color: black;
+    color: #ffffff;
     padding: 30px;
 }
 
 
 input[type="text"]:focus-visible, textarea:focus-visible {
-    outline: none;
+    outline: #ffffff;
     padding: 20px;
     margin: 20px;
 
 }
 textarea#message {
-    border: 1px solid #000;
+    border: 1px solid #ffffff;
     border-radius: 15px;
-    width: 45%;
-    border-bottom: 1px solid #000;
+    width: 60%;
+    border-bottom: 1px solid #ffffff;
     background: none;
 
 }
 .input{
-    border-bottom: 1px solid #000;
+    border: 1px solid #ffffff;
     background: none;
     width: 60%;
     outline: none;
     border-radius: 20px;
+    text-align: left;
 }
 
 input[type="submit"] {
-    font-size: 14px;
+    font-size: 18px ;
     border: none;
     display: block;
     padding: 10px;
     background: #009191;
     border-radius: 40px;
     color: #fff;
-    width: 80px;
+    width: 20%;
+    font-family: 'Lato' sans-serif;
 }
 .form {
     display: grid;
-    justify-items: start;
-    margin-right: 35%;
+    justify-items: center;
+    row-gap: 20px;
+    background: rgba(46, 43, 43, 0.719);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 5px;
 }
-
+.form label {
+    font-size: 20px;
+}
+.break{
+    width: 60%;
+}
 
 /* Footer Styles */
 footer, a {
@@ -252,12 +273,15 @@ span.copyright {
 }
 
 /*Boostrap Caurosel*/
+
 .bd-placeholder-img {
     font-size: 1.125rem;
     text-anchor: middle;
     -webkit-user-select: none;
     -moz-user-select: none;
     user-select: none;
+    filter: blur(3px);
+    background-size: cover;
   }
 
   @media (min-width: 768px) {
@@ -303,14 +327,37 @@ span.copyright {
     -webkit-overflow-scrolling: touch;
   }
   .container-marketing{
-    background-image: url('../images/about/about1.jpg');
-    padding: 20px;
+    background: url('../images/about/about7.jpg') no-repeat;
+    padding: 0px;
   }
   .caurosel-slide{
     margin-bottom: none;
   }
+.col-md-5-order-md-1{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 16px;
+}
+.col-md-5-order-md-1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.featurette-divider {
+    margin: 5%;
+    }
+.row-featurette{
+    margin-left: 30px;
+}
+
+
 
 /*Boostrap Features*/
+
+.features-section{
+    background: url('../images/about/about23.jpg');
+    background-size: cover;
+}
 
 .bd-placeholder-img {
     font-size: 1.125rem;
@@ -365,7 +412,4 @@ span.copyright {
   .col-d-flex{
     font-size: 40px;
     text-align: center;
-  }
-  .container-marketing{
-    background: url('../images/skills/skills4.jpg') no-repeat;
   }
