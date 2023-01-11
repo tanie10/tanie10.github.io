@@ -145,43 +145,33 @@ section#contact {
 .form-container {
     text-align: right;
     color: black;
-    display:inline-block;
-    width: 85%;
-
+    padding: 30px;
 }
+
+
 input[type="text"]:focus-visible, textarea:focus-visible {
     outline: none;
-    float: right;
+    padding: 20px;
+    margin: 20px;
 
 }
 textarea#message {
     border: 1px solid #000;
-    border-radius: 9px;
-    width:45%;
+    border-radius: 15px;
+    width: 45%;
     border-bottom: 1px solid #000;
     background: none;
 
 }
-#firstname {
-    border-bottom:1px solid #000;
+.input{
+    border-bottom: 1px solid #000;
     background: none;
-    width:50%;
-    outline:none;
-}
-#lastname {
-    border-bottom:1px solid #000;
-    background: none;
-    width:50%;
-    outline:none;
-}
-#email {
-    border-bottom:1px solid #000;
-    background: none;
-    width:50%;
-    outline:none;
+    width: 60%;
+    outline: none;
+    border-radius: 20px;
 }
 
-input[type="button"] {
+input[type="submit"] {
     font-size: 14px;
     border: none;
     display: block;
@@ -189,9 +179,13 @@ input[type="button"] {
     background: #009191;
     border-radius: 40px;
     color: #fff;
-    width: 115px
+    width: 80px;
 }
-
+.form {
+    display: grid;
+    justify-items: start;
+    margin-right: 35%;
+}
 
 
 /* Footer Styles */
