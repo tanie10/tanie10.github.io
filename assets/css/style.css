@@ -10,7 +10,7 @@ a {
     text-decoration: none;
 }
 body, form, input, textarea {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 span {
     display: block;
@@ -30,7 +30,7 @@ h2{
 }
 .container {
     margin: 0 auto;
-    padding: 10px
+    padding: 10px;
 }
 .home-header {
     background: #fff url(../images/home/home1.png) no-repeat;
@@ -222,7 +222,9 @@ section.footer-1 .col {
     color: #fff;
     font-size: 15px;
     display: inline-block;
-    width: 400px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 250px;
 }
 section.footer-1 .col ul li img {
     width: 100px;
@@ -251,6 +253,7 @@ section.footer-1 .col ul li {
 }
 .social-media-icon a {
     font-size: 45px;
+    color: #ffffff;
 }
 .social-media-icon a:hover {
     color: #00c8a3;
@@ -266,6 +269,7 @@ section.footer-1 .col ul li {
 }
 footer h3 {
     line-height: 25px;
+    font-size: 20px;
 }
 span.copyright {
     margin-top: 20px;
@@ -328,15 +332,19 @@ span.copyright {
   }
   .container-marketing{
     background: url('../images/about/about7.jpg') no-repeat;
-    padding: 0px;
+    background-attachment: fixed;
+    padding: 20px;
   }
   .caurosel-slide{
     margin-bottom: none;
   }
+  .caurosel-inner img{
+    width: 100%;
+  }
 .col-md-5-order-md-1{
     display:grid;
-    grid-template-columns: auto auto auto;
-    grid-gap: 16px;
+    grid-template-columns:auto auto auto;
+    grid-gap: 10px;
 }
 .col-md-5-order-md-1 img{
     width: 100%;
@@ -357,6 +365,8 @@ span.copyright {
 .features-section{
     background: url('../images/about/about23.jpg');
     background-size: cover;
+    background-attachment: fixed;
+    padding-top: 5px;
 }
 
 .bd-placeholder-img {
@@ -416,4 +426,10 @@ span.copyright {
 
   /*Feature Icons*/
 
-  
+  #icon-grid{
+    color:#ffffff;
+    font-family: 'Lato' sans-serif;
+    margin-top: 40px;
+  }
+
+  /*Feature Titles*/
