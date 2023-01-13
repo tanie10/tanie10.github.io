@@ -473,6 +473,15 @@ span.copyright {
     font-size: 40px;
     text-align: center;
 }
+.features-section h2{
+    color:#ffffff;
+}
+.row-featurette h2 {
+    color:#ffffff;
+}
+.lead-f{
+    color:#ffffff;
+}
 
 /*Feature Icons*/
 
@@ -482,7 +491,7 @@ span.copyright {
     margin-top: 40px;
 }
 /*Profile*/
-.h-100{
+.ph-100{
     padding-top: 35px;
     background: url('../images/Profile/profile2.jpg');
     background-attachment: fixed;
