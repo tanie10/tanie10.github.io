@@ -481,3 +481,15 @@ span.copyright {
     font-family: 'Lato' sans-serif;
     margin-top: 40px;
 }
+/*Profile*/
+.h-100{
+    padding-top: 35px;
+    background: url('../images/Profile/profile2.jpg');
+    background-attachment: fixed;
+}
+.font-italic{
+    color: #fff;
+}
+.lead{
+    color: black;
+}
