@@ -131,7 +131,7 @@ section.about-section {
 /* Add your Skills Styles here*/
 section#skills .col {
     font-size: 87px;
-    color: #ffa903;
+    color: #caa863ea;
     display: inline-block;
     width: 28%;
 
@@ -386,7 +386,6 @@ span.copyright {
 .caurosel-inner img {
     width: 100%;
 }
-
 .col-md-5-order-md-1 {
     display: grid;
     grid-template-columns: auto auto auto;
@@ -501,6 +500,15 @@ span.copyright {
 }
 .lead{
     color: black;
+}
+.socials{
+    text-align: center;
+    padding: 20px;
+    background-color: #6c757d;
+}
+.socials a{
+    width: 100px;
+    padding: 10px;
 }
 
 /*Contact Boostrap*/
